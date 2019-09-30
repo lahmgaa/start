@@ -1,0 +1,553 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+     <title>start</title>
+   <style>
+       body{background-color: #161616; width: 1920px; height: 1080px; overflow: hidden;}
+       #header{width: 1080px; height: auto; position: absolute; left: calc(50% - 540px);}
+        
+       #start{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 150px); top: calc(50% - 50px); z-index: 4; border: 0px solid #2eb8ce;}
+
+
+
+       #vi{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi21{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi211{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi212{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi212_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi212_3{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi22{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi22_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi23{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi23_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       
+       #vi24{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi24_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi221{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi222{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi231{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi223{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi223_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi3{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi3_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi3_3{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi3_4{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi3_5{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi31{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi31_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       
+
+       #vi32{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi32_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi32_3{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi311{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi321{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi321_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+       #vi322{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi322_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       
+       #vi4{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi4_2{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       #vi4_3{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+       
+       #vi5{width:1020px; position: absolute; left: calc(50% - 510px); top: calc(50% - 400px); z-index: -2;}
+
+
+
+
+       #select1{display: none;}#select2{display: none;}#select21{display: none;}#select211{display: none;}#select212{display: none;}#select212_2{display: none;}#select212_3{display: none;}#select22{display: none;}#select22_2{display: none;}#select23{display: none;}#select23_2{display: none;}
+
+
+
+        #to2{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 150px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to2:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+        #to21{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 500px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to21:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to22{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 150px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to22:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to23{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 200px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to23:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+        #select211{display: none;}#select212{display: none;}
+        #to211{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 500px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to211:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to212{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 50px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to212:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+        #select22_2{display: none;}#select23_2{display: none;}
+        #to22_2{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 500px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to22_2:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to23_2{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 150px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to23_2:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        
+
+
+        #select3{display: none;} #select3_2{display: none;}#select3_3{display: none;}#select3_4{display: none;}#select3_5{display: none;}
+        #to3{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 500px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to3:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to3_2{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 200px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to3_2:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #select3_3{display: none;}#select3_4{display: none;}#select3_5{display: none;}
+        #to3_3{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 200px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to3_3:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to3_4{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 200px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to3_4:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to3_5{width: 300px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 200px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to3_5:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+
+
+        #select212_2{display: none;}
+        #to212_2{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 50px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to212_2:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+        #select31{display: none;} #select32{display: none;}
+        #to31{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 500px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to31:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to32{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 50px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to32:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+        #select311{display: none;} #select32_2{display: none;}
+        #to311{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 500px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to311:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to32_2{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 50px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to32_2:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+        #select4{display: none;} #select32_3{display: none;}
+        #to4{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 500px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to4:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+        #to32_3{width: 450px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% + 50px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to32_3:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+        #select5{display: none;}
+        #to5{width: 600px; height: 100px; color: white; background-color: #161616; font-size: 2em; position: absolute; left: calc(50% - 300px); top: calc(50% + 235px); z-index: 4; border: 0px solid #2eb8ce;}
+        #to5:hover{cursor: pointer; background-color: #2eb8ce; border-radius: 10px;}
+
+
+
+
+
+
+       #div_main{position: absolute; left:calc(50% - 1500px); top: calc(50% - 700px); overflow: hidden;}
+       
+   </style>
+</head>
+<body>
+    <div id="header"></div>
+
+
+
+        <div id="div_main">
+            <img src="img/main3.png" id="main" width="3000" height="auto" overflow="hidden">
+        </div>
+
+   <video controls id="vi" >
+       <source id="vsrc" src="vid/end.mp4" type="video/mp4">
+   </video>
+   <video controls id="vi2" >
+        <source id="vsrc2" src="vid/2.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi21" >
+        <source id="vsrc21" src="vid/21.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi211" >
+        <source id="vsrc211" src="vid/211.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi212" >
+        <source id="vsrc212" src="vid/212.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi22_2" >
+        <source id="vsrc22_2" src="vid/22_2.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi23_2" >
+        <source id="vsrc23_2" src="vid/23_2.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi3_2" >
+        <source id="vsrc3_2" src="vid/3_2.mp4" type="video/mp4">
+    </video>
+
+    <video controls id="vi22" >
+        <source id="vsrc22" src="vid/22.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi23" >
+        <source id="vsrc23" src="vid/23.mp4" type="video/mp4">
+    </video>
+
+    <video controls id="vi3" >
+            <source id="vsrc3" src="vid/3.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi31" >
+            <source id="vsrc31" src="vid/31.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi311" >
+            <source id="vsrc311" src="vid/311.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi32_2" >
+            <source id="vsrc32_2" src="vid/32_2.mp4" type="video/mp4">
+    </video>
+
+    <video controls id="vi32" >
+            <source id="vsrc32" src="vid/32.mp4" type="video/mp4">
+    </video>
+
+    <video controls id="vi4" >
+            <source id="vsrc4" src="vid/4.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi32_2" >
+            <source id="vsrc32_2" src="vid/32_2.mp4" type="video/mp4">
+    </video>
+    <video controls id="vi5" >
+            <source id="vsrc5" src="vid/5.mp4" type="video/mp4">
+    </video>
+
+
+    <div id="selectstart">
+            <button onclick="play();" id="start">start</button>
+        </div>
+   <div id="select1">
+       <button onclick="play1();" id="to2">-></button>
+    </div>
+
+    <div id="select21">
+        <button onclick="play21();" id="to21">게임</button>
+    </div>
+    <div id="select22">
+        <button onclick="play22();" id="to22">음악</button>
+    </div>
+    <div id="select23">
+        <button onclick="play23();" id="to23">음식</button>
+    </div>
+
+    <div id="select211">
+        <button onclick="play211();" id="to211">왜 두대의 컴퓨터를??</button>
+    </div>
+    <div id="select212">
+        <button onclick="play212();" id="to212">게임 방송은 게임 고수만?</button>
+    </div>
+    <div id="select22_2">
+        <button onclick="play22_2();" id="to22_2">음악 방송은<br>어떤가요?</button>
+    </div>
+    <div id="select23_2">
+        <button onclick="play23_2();" id="to23_2">음식과 관련된<br>방송은 어떤가요?</button>
+    </div>
+    
+
+    <div id="select3">
+            <button onclick="play3();" id="to3">방송이 끝나면 어떤걸 하나요?</button>
+    </div>
+    <div id="select3_2">
+            <button onclick="play3_2();" id="to3_2">방송 후엔<br>무엇을 하나요?</button>
+    </div>
+    <div id="select3_3">
+            <button onclick="play3_3();" id="to3_3">방송이 끝나면 어떤걸 하나요?</button>
+    </div>
+    <div id="select3_4">
+            <button onclick="play3_4();" id="3_4">방송이 끝나면 어떤걸 하나요?</button>
+    </div>
+    <div id="select3_5">
+            <button onclick="play3_5();" id="to3_5">방송이 끝나면 어떤걸 하나요?</button>
+    </div>
+
+
+    <div id="select212_2">
+            <button onclick="play212_2();" id="to212_2">게임을 못해도 할 수 있나요?</button>
+    </div>
+
+    <div id="select31">
+            <button onclick="play31();" id="to31">편집은 어떻게 하나요?</button>
+    </div>
+    <div id="select32">
+            <button onclick="play32();" id="to32">녹화는 어떻게 하나요?</button>
+    </div>
+    <div id="select311">
+            <button onclick="play311();" id="to311">도저히 편집은..</button>
+    </div>
+    <div id="select32_2">
+            <button onclick="play32_2();" id="to32_2">녹화는 어떻게 하나요?</button>
+    </div>
+    <div id="select4">
+            <button onclick="play4();" id="to4">수익 창출은 어떻게??</button>
+    </div>
+    <div id="select32_3">
+            <button onclick="play32_3();" id="to32_3">녹화는 어떻게 하나요?</button>
+    </div>
+
+    <div id="select5">
+            <button onclick="play5();" id="to5">혼자 미디어!</button>
+    </div>
+
+
+</body>
+
+<script>
+        var stage = 0;
+        vi.onended = function(){
+            select1.style.display = "block";
+        }
+        var stage = 0;
+        vi2.onended = function(){
+           select21.style.display = "block";
+           select22.style.display = "block";
+           select23.style.display = "block";
+        }
+        var stage = 0;
+        vi21.onended = function(){
+           select211.style.display = "block";
+           select212.style.display = "block";
+        }
+        var stage = 0;
+        vi211.onended = function(){
+           select3.style.display = "block";
+           select212_2.style.display = "block";
+        }
+        var stage = 0;
+        vi212.onended = function(){
+           select22_2.style.display = "block";
+           select23_2.style.display = "block";
+           select3_2.style.display = "block";
+        }
+        var stage = 0;
+        vi3.onended = function(){
+           select31.style.display = "block";
+           select32.style.display = "block";
+        }
+        vi3_2.onended = function(){
+           select3_21.style.display = "block";
+           select3_22.style.display = "block";
+        }
+        vi3_3.onended = function(){
+           select3_31.style.display = "block";
+           select3_32.style.display = "block";
+        }
+        vi3_4.onended = function(){
+           select3_41.style.display = "block";
+           select3_42.style.display = "block";
+        }
+        vi3_5.onended = function(){
+           select3_51.style.display = "block";
+           select3_52.style.display = "block";
+        }
+        var stage = 0;
+        vi31.onended = function(){
+           select311.style.display = "block";
+           select32_2.style.display = "block";
+        }
+        var stage = 0;
+        vi311.onended = function(){
+           select4.style.display = "block";
+           select32_3.style.display = "block";
+        }
+        var stage = 0;
+        vi4.onended = function(){
+           select5.style.display = "block";
+        }
+
+
+       function play(){
+         vsrc.src="vid/1.mp4";
+         
+         vi.load();
+         vi.play();
+        vi.style.zIndex = "+1";
+        start.style.zIndex = "-2";
+       }
+
+       function play1(){
+        vsrc2.src= "vid/2.mp4";
+        
+        vi2.load();
+        vi2.play();
+        vi2.style.zIndex = "+1";
+        vi.style.zIndex = "-1";
+        to2.style.zIndex = "-1";
+       }
+       
+
+        function play21(){
+            vsrc21.src= "vid/21.mp4";
+            vi21.load();
+            vi21.play();
+            vi21.style.zIndex = "+1";
+            vi2.style.zIndex = "-1";
+            to21.style.zIndex = "-1";
+            to22.style.zIndex = "-1";
+            to23.style.zIndex = "-1";
+        }
+        
+
+        function play211(){
+            vsrc211.src= "vid/211.mp4";
+            vi211.load();
+            vi211.play();
+            vi211.style.zIndex = "+1";
+            vi21.style.zIndex = "-1";
+            to211.style.zIndex = "-1";
+            to212.style.zIndex = "-1";
+        }
+        function play212(){
+            vsrc212.src= "vid/212.mp4";
+            vi212.load();
+            vi212.play();
+            vi212.style.zIndex = "+1";
+            vi21.style.zIndex = "-1";
+            to211.style.zIndex = "-1";
+            to212.style.zIndex = "-1";
+        }
+
+        
+        function play22_2(){
+            vsrc22_2.src= "vid/22_2.mp4";
+            vi22_2.load();
+            vi22_2.play();
+            vi22_2.style.zIndex = "+1";
+            vi212.style.zIndex = "-1";
+            to22_2.style.zIndex = "-1";
+            to23_2.style.zIndex = "-1";
+            to3_2.style.zIndex = "-1";
+        }
+        function play23_2(){
+            vsrc23_2.src= "vid/23_2.mp4";
+            vi23_2.load();
+            vi23_2.play();
+            vi23_2.style.zIndex = "+1";
+            vi212.style.zIndex = "-1";
+            to23_2.style.zIndex = "-1";
+            to22_2.style.zIndex = "-1";
+            to3_2.style.zIndex = "-1";
+        }
+        function play3_2(){
+            vsrc3_2.src= "vid/3_2.mp4";
+            vi3_2.load();
+            vi3_2.play();
+            vi3_2.style.zIndex = "+1";
+            vi212.style.zIndex = "-1";
+            to22_2.style.zIndex = "-1";
+            to23_2.style.zIndex = "-1";
+            to3_2.style.zIndex = "-1";
+        }
+
+        function play3(){
+            vsrc3.src= "vid/3.mp4";
+            vi3.load();
+            vi3.play();
+            vi3.style.zIndex = "+1";
+            vi211.style.zIndex = "-1";
+            to3.style.zIndex = "-1";
+            to212_2.style.zIndex = "-1";
+        }
+
+        function play212_2(){
+            vsrc212_2.src= "vid/212.mp4";
+            vi212_2.load();
+            vi212_2.play();
+            vi212_2.style.zIndex = "+1";
+            vi211.style.zIndex = "-1";
+            to3.style.zIndex = "-1";
+            to212_2.style.zIndex = "-1";
+        }
+        function play22(){
+            vsrc22.src= "vid/22.mp4";
+            vi22.load();
+            vi22.play();
+            vi22.style.zIndex = "+1";
+            vi2.style.zIndex = "-1";
+            game.style.zIndex = "-1";
+            music.style.zIndex = "-1";
+            food.style.zIndex = "-1";
+        }
+        function play23(){
+            vsrc23.src= "vid/23.mp4";
+            vi23.load();
+            vi23.play();
+            vi23.style.zIndex = "+1";
+            vi2.style.zIndex = "-1";
+            game.style.zIndex = "-1";
+            music.style.zIndex = "-1";
+            food.style.zIndex = "-1";
+        }
+
+
+        function play31(){
+            vsrc31.src= "vid/31.mp4";
+            vi31.load();
+            vi31.play();
+            vi31.style.zIndex = "+1";
+            vi3.style.zIndex = "-1";
+            to31.style.zIndex = "-1";
+            to32.style.zIndex = "-1";
+        }
+        function play32(){
+            vsrc32.src= "vid/32.mp4";
+            vi32.load();
+            vi32.play();
+            vi32.style.zIndex = "+1";
+            vi3.style.zIndex = "-1";
+            to31.style.zIndex = "-1";
+            to32.style.zIndex = "-1";
+        }
+
+        function play311(){
+            vsrc311.src= "vid/311.mp4";
+            vi311.load();
+            vi311.play();
+            vi311.style.zIndex = "+1";
+            vi31.style.zIndex = "-1";
+            to311.style.zIndex = "-1";
+            to32_2.style.zIndex = "-1";
+        }
+
+
+        function play32_2(){
+            vsrc32_2.src= "vid/32_2.mp4";
+            vi32_2.load();
+            vi32_2.play();
+            vi32_2.style.zIndex = "+1";
+            vi31.style.zIndex = "-1";
+            to311.style.zIndex = "-1";
+            vi32_2.style.zIndex = "-1";
+        }
+
+        function play4(){
+            vsrc4.src= "vid/4.mp4";
+            vi4.load();
+            vi4.play();
+            vi4.style.zIndex = "+1";
+            vi311.style.zIndex = "-1";
+            to4.style.zIndex = "-1";
+            to32_3.style.zIndex = "-1";
+        }
+
+
+
+        function play5(){
+            vsrc5.src= "vid/5.mp4";
+            vi5.load();
+            vi5.play();
+            vi5.style.zIndex = "+1";
+            vi4.style.zIndex = "-1";
+            to5.style.zIndex = "-1";
+        }
+       
+   </script>
+
+
+</html>
